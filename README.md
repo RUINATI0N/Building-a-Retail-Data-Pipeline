@@ -6,22 +6,22 @@ This project demonstrates a **full ETL pipeline** for retail sales data inspired
 
 The pipeline performs the following steps:
 
-1. **Extract**
+1. **Extract**  
    Extract retail sales data from PostgreSQL and complementary data from a Parquet file, then merge the datasets into a single DataFrame.
 
-2. **Transform**
+2. **Transform**  
 
    * Fill missing numerical values for CPI and Unemployment using forward/backward fill
    * Create a `Month` column from the `Date` column
    * Filter out weekly sales below $10,000
 
-3. **Aggregation**
+3. **Aggregation**  
    Calculate the **average weekly sales per month**.
 
-4. **Load**
+4. **Load**  
    Persist the cleaned dataset and aggregated dataset as CSV files.
 
-5. **Validate**
+5. **Validate**  
    Check that the output CSV files were successfully created.
 
 ## Project Structure
