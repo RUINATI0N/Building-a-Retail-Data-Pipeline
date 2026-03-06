@@ -1,6 +1,6 @@
 # Retail Data Pipeline
 
-This project demonstrates a **full ETL pipeline** for retail sales data inspired by datasets such as Walmart's. The pipeline extracts data from multiple sources, cleans and transforms it, performs aggregation, and saves the results.
+This project demonstrates a **full ETL pipeline** for Walmart retail sales data. The pipeline extracts data from multiple sources, cleans and transforms it, performs aggregation, and saves the results.
 
 ## Project Overview
 
